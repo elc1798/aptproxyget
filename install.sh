@@ -1,7 +1,7 @@
 sudo mkdir ~/.aptproxyget
 sudo cp 01proxy.aptproxyget.data  ~/.aptproxyget/01proxy.aptproxyget.data
 sudo cp apt-proxy-get.sh ~/.aptproxyget/apt-proxy-get.sh
-sudo echo alias aptproxyget='sh ~/.aptproxyget/apt-proxy-get.sh' >> ~/.bash_aliases
+sudo echo "alias aptproxyget='sh ~/.aptproxyget/apt-proxy-get.sh'" >> ~/.bash_aliases
 source ~/.bashrc
 clear
 echo aptproxyget has been successfully installed.
