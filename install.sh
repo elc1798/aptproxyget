@@ -4,7 +4,7 @@ sudo cp 01proxy.aptproxyget.data  ~/.aptproxyget/01proxy.aptproxyget.data
 sudo cp apt-proxy-get.sh ~/.aptproxyget/apt-proxy-get.sh
 cd
 if [ -e ".bash_aliases" ]; then
-  sudo cp .bashaliases alias_data
+  sudo cp .bash_aliases alias_data
   sudo echo "alias aptproxyget='sh ~/.aptproxyget/apt-proxy-get.sh'" >> alias_data
   sudo mv alias_data .bash_aliases
 else
