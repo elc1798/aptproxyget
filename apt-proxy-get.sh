@@ -11,7 +11,7 @@ while getopts "carh" opt; do
 			fi
 			;;
 		a)
-                        sudo cp /home/sublimau5/Development/BASHScripts/01proxy.aptproxyget.data /etc/apt/apt.conf.d/01proxy
+                        sudo cp ~/.aptproxyget/01proxy.aptproxyget.data /etc/apt/apt.conf.d/01proxy
 			;;
 		r)
                         if [ -e "/etc/apt/apt.conf.d/01proxy" ]; then
